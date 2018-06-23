@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to level api snapshot 1`] = `
+Object {
+  "BREAKPOINTS": Object {
+    "lg": 1280,
+    "md": 960,
+    "sm": 600,
+    "xl": 1920,
+    "xs": 0,
+  },
+  "BREAKPOINT_KEYS": Array [
+    "xs",
+    "sm",
+    "md",
+    "lg",
+    "xl",
+  ],
+  "GRID12_GUTTERS": Array [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+  ],
+  "GRID12_SIZES": Array [
+    "auto",
+    true,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+  ],
+  "STEP": 5,
+  "UNIT": "px",
+}
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`breakpoints breakpointKeys snapshot 1`] = `
+Array [
+  "xs",
+  "sm",
+  "md",
+  "lg",
+  "xl",
+]
+`;
+
+exports[`breakpoints createBreakpoints instantiate snapshot 1`] = `
+Array [
+  "xs",
+  "sm",
+  "md",
+  "lg",
+  "xl",
+]
+`;

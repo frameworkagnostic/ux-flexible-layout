@@ -4,7 +4,7 @@ import {
   GRID_SIZES
 } from './grid12Column';
 
-describe('breakpoints', () => {
+describe('grid constants', () => {
 
   test.each(GRID_GUTTERS)('grid gutter is a number (%i)', (value) =>
     expect(value).toEqual(expect.any(Number)));

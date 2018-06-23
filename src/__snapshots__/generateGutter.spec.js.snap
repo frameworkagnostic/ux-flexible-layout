@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generate gutter gutter 12 columns create styles snapshot 1`] = `
+Object {
+  "spacing-xs-16": Object {
+    "& > $item": Object {
+      "padding": 8,
+    },
+    "margin": -8,
+    "width": "calc(100% + 16px)",
+  },
+  "spacing-xs-24": Object {
+    "& > $item": Object {
+      "padding": 12,
+    },
+    "margin": -12,
+    "width": "calc(100% + 24px)",
+  },
+  "spacing-xs-32": Object {
+    "& > $item": Object {
+      "padding": 16,
+    },
+    "margin": -16,
+    "width": "calc(100% + 32px)",
+  },
+  "spacing-xs-40": Object {
+    "& > $item": Object {
+      "padding": 20,
+    },
+    "margin": -20,
+    "width": "calc(100% + 40px)",
+  },
+  "spacing-xs-8": Object {
+    "& > $item": Object {
+      "padding": 4,
+    },
+    "margin": -4,
+    "width": "calc(100% + 8px)",
+  },
+}
+`;
+
+exports[`generate gutter gutter 12 columns snapshot 1`] = `
+Array [
+  0,
+  8,
+  16,
+  24,
+  32,
+  40,
+]
+`;

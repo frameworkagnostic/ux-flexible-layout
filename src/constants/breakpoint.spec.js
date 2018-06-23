@@ -4,7 +4,7 @@ import {
   BREAKPOINTS
 } from './breakpoint';
 
-describe('breakpoints', () => {
+describe('breakpoints constants', () => {
 
   test.each(Object.keys(BREAKPOINTS))('exist (%s)', (key) =>
     expect(BREAKPOINT_KEYS).toContain(key));

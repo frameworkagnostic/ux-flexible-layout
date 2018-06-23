@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flexbox inline styles snapshot 1`] = `
+Object {
+  "align-content-xs-center": Object {
+    "alignContent": "center",
+  },
+  "align-content-xs-flex-end": Object {
+    "alignContent": "flex-end",
+  },
+  "align-content-xs-flex-start": Object {
+    "alignContent": "flex-start",
+  },
+  "align-content-xs-space-around": Object {
+    "alignContent": "space-around",
+  },
+  "align-content-xs-space-between": Object {
+    "alignContent": "space-between",
+  },
+  "align-items-xs-baseline": Object {
+    "alignItems": "baseline",
+  },
+  "align-items-xs-center": Object {
+    "alignItems": "center",
+  },
+  "align-items-xs-flex-end": Object {
+    "alignItems": "flex-end",
+  },
+  "align-items-xs-flex-start": Object {
+    "alignItems": "flex-start",
+  },
+  "container": Object {
+    "boxSizing": "border-box",
+    "display": "flex",
+    "flexWrap": "wrap",
+    "width": "100%",
+  },
+  "direction-xs-column": Object {
+    "flexDirection": "column",
+  },
+  "direction-xs-column-reverse": Object {
+    "flexDirection": "column-reverse",
+  },
+  "direction-xs-row-reverse": Object {
+    "flexDirection": "row-reverse",
+  },
+  "item": Object {
+    "boxSizing": "border-box",
+    "margin": "0",
+  },
+  "justify-xs-center": Object {
+    "justifyContent": "center",
+  },
+  "justify-xs-flex-end": Object {
+    "justifyContent": "flex-end",
+  },
+  "justify-xs-space-around": Object {
+    "justifyContent": "space-around",
+  },
+  "justify-xs-space-between": Object {
+    "justifyContent": "space-between",
+  },
+  "wrap-xs-nowrap": Object {
+    "flexWrap": "nowrap",
+  },
+  "wrap-xs-wrap-reverse": Object {
+    "flexWrap": "wrap-reverse",
+  },
+  "zeroMinWidth": Object {
+    "minWidth": 0,
+  },
+}
+`;
