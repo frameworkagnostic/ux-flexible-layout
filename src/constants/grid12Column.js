@@ -8,9 +8,12 @@ export const GRID_GUTTERS = [
   40
 ];
 
-export const GRID_SIZES = [
+export const GRID_SIZES_DEFAULT = [
   'auto',
   true,
+];
+
+export const GRID_SIZES = [
   1,
   2,
   3,
