@@ -1,5 +1,470 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`generate styles default grid 12 column with gutters styles snapshot 1`] = `
+Object {
+  "@media (min-width:1280px)": Object {
+    "grid-lg-1": Object {
+      "flexBasis": "8.33333%",
+      "flexGrow": 0,
+      "maxWidth": "8.33333%",
+    },
+    "grid-lg-10": Object {
+      "flexBasis": "83.33333%",
+      "flexGrow": 0,
+      "maxWidth": "83.33333%",
+    },
+    "grid-lg-11": Object {
+      "flexBasis": "91.66667%",
+      "flexGrow": 0,
+      "maxWidth": "91.66667%",
+    },
+    "grid-lg-12": Object {
+      "flexBasis": "100%",
+      "flexGrow": 0,
+      "maxWidth": "100%",
+    },
+    "grid-lg-2": Object {
+      "flexBasis": "16.66667%",
+      "flexGrow": 0,
+      "maxWidth": "16.66667%",
+    },
+    "grid-lg-3": Object {
+      "flexBasis": "25%",
+      "flexGrow": 0,
+      "maxWidth": "25%",
+    },
+    "grid-lg-4": Object {
+      "flexBasis": "33.33333%",
+      "flexGrow": 0,
+      "maxWidth": "33.33333%",
+    },
+    "grid-lg-5": Object {
+      "flexBasis": "41.66667%",
+      "flexGrow": 0,
+      "maxWidth": "41.66667%",
+    },
+    "grid-lg-6": Object {
+      "flexBasis": "50%",
+      "flexGrow": 0,
+      "maxWidth": "50%",
+    },
+    "grid-lg-7": Object {
+      "flexBasis": "58.33333%",
+      "flexGrow": 0,
+      "maxWidth": "58.33333%",
+    },
+    "grid-lg-8": Object {
+      "flexBasis": "66.66667%",
+      "flexGrow": 0,
+      "maxWidth": "66.66667%",
+    },
+    "grid-lg-9": Object {
+      "flexBasis": "75%",
+      "flexGrow": 0,
+      "maxWidth": "75%",
+    },
+    "grid-lg-auto": Object {
+      "flexBasis": "auto",
+      "flexGrow": 0,
+      "maxWidth": "none",
+    },
+    "grid-lg-true": Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "maxWidth": "100%",
+    },
+  },
+  "@media (min-width:1920px)": Object {
+    "grid-xl-1": Object {
+      "flexBasis": "8.33333%",
+      "flexGrow": 0,
+      "maxWidth": "8.33333%",
+    },
+    "grid-xl-10": Object {
+      "flexBasis": "83.33333%",
+      "flexGrow": 0,
+      "maxWidth": "83.33333%",
+    },
+    "grid-xl-11": Object {
+      "flexBasis": "91.66667%",
+      "flexGrow": 0,
+      "maxWidth": "91.66667%",
+    },
+    "grid-xl-12": Object {
+      "flexBasis": "100%",
+      "flexGrow": 0,
+      "maxWidth": "100%",
+    },
+    "grid-xl-2": Object {
+      "flexBasis": "16.66667%",
+      "flexGrow": 0,
+      "maxWidth": "16.66667%",
+    },
+    "grid-xl-3": Object {
+      "flexBasis": "25%",
+      "flexGrow": 0,
+      "maxWidth": "25%",
+    },
+    "grid-xl-4": Object {
+      "flexBasis": "33.33333%",
+      "flexGrow": 0,
+      "maxWidth": "33.33333%",
+    },
+    "grid-xl-5": Object {
+      "flexBasis": "41.66667%",
+      "flexGrow": 0,
+      "maxWidth": "41.66667%",
+    },
+    "grid-xl-6": Object {
+      "flexBasis": "50%",
+      "flexGrow": 0,
+      "maxWidth": "50%",
+    },
+    "grid-xl-7": Object {
+      "flexBasis": "58.33333%",
+      "flexGrow": 0,
+      "maxWidth": "58.33333%",
+    },
+    "grid-xl-8": Object {
+      "flexBasis": "66.66667%",
+      "flexGrow": 0,
+      "maxWidth": "66.66667%",
+    },
+    "grid-xl-9": Object {
+      "flexBasis": "75%",
+      "flexGrow": 0,
+      "maxWidth": "75%",
+    },
+    "grid-xl-auto": Object {
+      "flexBasis": "auto",
+      "flexGrow": 0,
+      "maxWidth": "none",
+    },
+    "grid-xl-true": Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "maxWidth": "100%",
+    },
+  },
+  "@media (min-width:600px)": Object {
+    "grid-sm-1": Object {
+      "flexBasis": "8.33333%",
+      "flexGrow": 0,
+      "maxWidth": "8.33333%",
+    },
+    "grid-sm-10": Object {
+      "flexBasis": "83.33333%",
+      "flexGrow": 0,
+      "maxWidth": "83.33333%",
+    },
+    "grid-sm-11": Object {
+      "flexBasis": "91.66667%",
+      "flexGrow": 0,
+      "maxWidth": "91.66667%",
+    },
+    "grid-sm-12": Object {
+      "flexBasis": "100%",
+      "flexGrow": 0,
+      "maxWidth": "100%",
+    },
+    "grid-sm-2": Object {
+      "flexBasis": "16.66667%",
+      "flexGrow": 0,
+      "maxWidth": "16.66667%",
+    },
+    "grid-sm-3": Object {
+      "flexBasis": "25%",
+      "flexGrow": 0,
+      "maxWidth": "25%",
+    },
+    "grid-sm-4": Object {
+      "flexBasis": "33.33333%",
+      "flexGrow": 0,
+      "maxWidth": "33.33333%",
+    },
+    "grid-sm-5": Object {
+      "flexBasis": "41.66667%",
+      "flexGrow": 0,
+      "maxWidth": "41.66667%",
+    },
+    "grid-sm-6": Object {
+      "flexBasis": "50%",
+      "flexGrow": 0,
+      "maxWidth": "50%",
+    },
+    "grid-sm-7": Object {
+      "flexBasis": "58.33333%",
+      "flexGrow": 0,
+      "maxWidth": "58.33333%",
+    },
+    "grid-sm-8": Object {
+      "flexBasis": "66.66667%",
+      "flexGrow": 0,
+      "maxWidth": "66.66667%",
+    },
+    "grid-sm-9": Object {
+      "flexBasis": "75%",
+      "flexGrow": 0,
+      "maxWidth": "75%",
+    },
+    "grid-sm-auto": Object {
+      "flexBasis": "auto",
+      "flexGrow": 0,
+      "maxWidth": "none",
+    },
+    "grid-sm-true": Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "maxWidth": "100%",
+    },
+  },
+  "@media (min-width:960px)": Object {
+    "grid-md-1": Object {
+      "flexBasis": "8.33333%",
+      "flexGrow": 0,
+      "maxWidth": "8.33333%",
+    },
+    "grid-md-10": Object {
+      "flexBasis": "83.33333%",
+      "flexGrow": 0,
+      "maxWidth": "83.33333%",
+    },
+    "grid-md-11": Object {
+      "flexBasis": "91.66667%",
+      "flexGrow": 0,
+      "maxWidth": "91.66667%",
+    },
+    "grid-md-12": Object {
+      "flexBasis": "100%",
+      "flexGrow": 0,
+      "maxWidth": "100%",
+    },
+    "grid-md-2": Object {
+      "flexBasis": "16.66667%",
+      "flexGrow": 0,
+      "maxWidth": "16.66667%",
+    },
+    "grid-md-3": Object {
+      "flexBasis": "25%",
+      "flexGrow": 0,
+      "maxWidth": "25%",
+    },
+    "grid-md-4": Object {
+      "flexBasis": "33.33333%",
+      "flexGrow": 0,
+      "maxWidth": "33.33333%",
+    },
+    "grid-md-5": Object {
+      "flexBasis": "41.66667%",
+      "flexGrow": 0,
+      "maxWidth": "41.66667%",
+    },
+    "grid-md-6": Object {
+      "flexBasis": "50%",
+      "flexGrow": 0,
+      "maxWidth": "50%",
+    },
+    "grid-md-7": Object {
+      "flexBasis": "58.33333%",
+      "flexGrow": 0,
+      "maxWidth": "58.33333%",
+    },
+    "grid-md-8": Object {
+      "flexBasis": "66.66667%",
+      "flexGrow": 0,
+      "maxWidth": "66.66667%",
+    },
+    "grid-md-9": Object {
+      "flexBasis": "75%",
+      "flexGrow": 0,
+      "maxWidth": "75%",
+    },
+    "grid-md-auto": Object {
+      "flexBasis": "auto",
+      "flexGrow": 0,
+      "maxWidth": "none",
+    },
+    "grid-md-true": Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "maxWidth": "100%",
+    },
+  },
+  "align-content-xs-center": Object {
+    "alignContent": "center",
+  },
+  "align-content-xs-flex-end": Object {
+    "alignContent": "flex-end",
+  },
+  "align-content-xs-flex-start": Object {
+    "alignContent": "flex-start",
+  },
+  "align-content-xs-space-around": Object {
+    "alignContent": "space-around",
+  },
+  "align-content-xs-space-between": Object {
+    "alignContent": "space-between",
+  },
+  "align-items-xs-baseline": Object {
+    "alignItems": "baseline",
+  },
+  "align-items-xs-center": Object {
+    "alignItems": "center",
+  },
+  "align-items-xs-flex-end": Object {
+    "alignItems": "flex-end",
+  },
+  "align-items-xs-flex-start": Object {
+    "alignItems": "flex-start",
+  },
+  "container": Object {
+    "boxSizing": "border-box",
+    "display": "flex",
+    "flexWrap": "wrap",
+    "width": "100%",
+  },
+  "direction-xs-column": Object {
+    "flexDirection": "column",
+  },
+  "direction-xs-column-reverse": Object {
+    "flexDirection": "column-reverse",
+  },
+  "direction-xs-row-reverse": Object {
+    "flexDirection": "row-reverse",
+  },
+  "grid-xs-1": Object {
+    "flexBasis": "8.33333%",
+    "flexGrow": 0,
+    "maxWidth": "8.33333%",
+  },
+  "grid-xs-10": Object {
+    "flexBasis": "83.33333%",
+    "flexGrow": 0,
+    "maxWidth": "83.33333%",
+  },
+  "grid-xs-11": Object {
+    "flexBasis": "91.66667%",
+    "flexGrow": 0,
+    "maxWidth": "91.66667%",
+  },
+  "grid-xs-12": Object {
+    "flexBasis": "100%",
+    "flexGrow": 0,
+    "maxWidth": "100%",
+  },
+  "grid-xs-2": Object {
+    "flexBasis": "16.66667%",
+    "flexGrow": 0,
+    "maxWidth": "16.66667%",
+  },
+  "grid-xs-3": Object {
+    "flexBasis": "25%",
+    "flexGrow": 0,
+    "maxWidth": "25%",
+  },
+  "grid-xs-4": Object {
+    "flexBasis": "33.33333%",
+    "flexGrow": 0,
+    "maxWidth": "33.33333%",
+  },
+  "grid-xs-5": Object {
+    "flexBasis": "41.66667%",
+    "flexGrow": 0,
+    "maxWidth": "41.66667%",
+  },
+  "grid-xs-6": Object {
+    "flexBasis": "50%",
+    "flexGrow": 0,
+    "maxWidth": "50%",
+  },
+  "grid-xs-7": Object {
+    "flexBasis": "58.33333%",
+    "flexGrow": 0,
+    "maxWidth": "58.33333%",
+  },
+  "grid-xs-8": Object {
+    "flexBasis": "66.66667%",
+    "flexGrow": 0,
+    "maxWidth": "66.66667%",
+  },
+  "grid-xs-9": Object {
+    "flexBasis": "75%",
+    "flexGrow": 0,
+    "maxWidth": "75%",
+  },
+  "grid-xs-auto": Object {
+    "flexBasis": "auto",
+    "flexGrow": 0,
+    "maxWidth": "none",
+  },
+  "grid-xs-true": Object {
+    "flexBasis": 0,
+    "flexGrow": 1,
+    "maxWidth": "100%",
+  },
+  "item": Object {
+    "boxSizing": "border-box",
+    "margin": "0",
+  },
+  "justify-xs-center": Object {
+    "justifyContent": "center",
+  },
+  "justify-xs-flex-end": Object {
+    "justifyContent": "flex-end",
+  },
+  "justify-xs-space-around": Object {
+    "justifyContent": "space-around",
+  },
+  "justify-xs-space-between": Object {
+    "justifyContent": "space-between",
+  },
+  "spacing-xs-16": Object {
+    "& > $item": Object {
+      "padding": 8,
+    },
+    "margin": -8,
+    "width": "calc(100% + 16px)",
+  },
+  "spacing-xs-24": Object {
+    "& > $item": Object {
+      "padding": 12,
+    },
+    "margin": -12,
+    "width": "calc(100% + 24px)",
+  },
+  "spacing-xs-32": Object {
+    "& > $item": Object {
+      "padding": 16,
+    },
+    "margin": -16,
+    "width": "calc(100% + 32px)",
+  },
+  "spacing-xs-40": Object {
+    "& > $item": Object {
+      "padding": 20,
+    },
+    "margin": -20,
+    "width": "calc(100% + 40px)",
+  },
+  "spacing-xs-8": Object {
+    "& > $item": Object {
+      "padding": 4,
+    },
+    "margin": -4,
+    "width": "calc(100% + 8px)",
+  },
+  "wrap-xs-nowrap": Object {
+    "flexWrap": "nowrap",
+  },
+  "wrap-xs-wrap-reverse": Object {
+    "flexWrap": "wrap-reverse",
+  },
+  "zeroMinWidth": Object {
+    "minWidth": 0,
+  },
+}
+`;
+
 exports[`generate styles default grid styles snapshot 1`] = `
 Object {
   "@media (min-width:1280px)": Object {

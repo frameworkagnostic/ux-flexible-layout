@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prebuild": "babel ./src --out-dir ./lib --copy-files --source-maps --ignore spec.,mock.,.stories.jsx",
+    "build": "node ./cicd-generate-styles",
+    "pretest": "npm run build",
     "test": "jest"
   },
   "repository": {
@@ -24,6 +27,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "jest": "^23.1.0"
+    "jest": "^23.1.0",
+    "mkdirp": "^0.5.1"
   }
 }
