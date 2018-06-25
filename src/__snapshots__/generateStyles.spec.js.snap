@@ -290,32 +290,40 @@ Object {
       "maxWidth": "100%",
     },
   },
-  "align-content-xs-center": Object {
+  "align-content-center": Object {
     "alignContent": "center",
   },
-  "align-content-xs-flex-end": Object {
+  "align-content-flex-end": Object {
     "alignContent": "flex-end",
   },
-  "align-content-xs-flex-start": Object {
+  "align-content-flex-start": Object {
     "alignContent": "flex-start",
   },
-  "align-content-xs-space-around": Object {
+  "align-content-space-around": Object {
     "alignContent": "space-around",
   },
-  "align-content-xs-space-between": Object {
+  "align-content-space-between": Object {
     "alignContent": "space-between",
   },
-  "align-items-xs-baseline": Object {
+  "align-items-baseline": Object {
     "alignItems": "baseline",
   },
-  "align-items-xs-center": Object {
+  "align-items-center": Object {
     "alignItems": "center",
   },
-  "align-items-xs-flex-end": Object {
+  "align-items-flex-end": Object {
     "alignItems": "flex-end",
   },
-  "align-items-xs-flex-start": Object {
+  "align-items-flex-start": Object {
     "alignItems": "flex-start",
+  },
+  "align-self-center": Object {
+    "alignSelf": "center",
+  },
+  "box": Object {
+    "boxSizing": "border-box",
+    "margin": "0",
+    "padding": "0",
   },
   "container": Object {
     "boxSizing": "border-box",
@@ -323,14 +331,17 @@ Object {
     "flexWrap": "wrap",
     "width": "100%",
   },
-  "direction-xs-column": Object {
+  "direction-column": Object {
     "flexDirection": "column",
   },
-  "direction-xs-column-reverse": Object {
+  "direction-column-reverse": Object {
     "flexDirection": "column-reverse",
   },
-  "direction-xs-row-reverse": Object {
+  "direction-row-reverse": Object {
     "flexDirection": "row-reverse",
+  },
+  "flex": Object {
+    "display": "flex",
   },
   "grid-xs-1": Object {
     "flexBasis": "8.33333%",
@@ -453,10 +464,10 @@ Object {
     "margin": -4,
     "width": "calc(100% + 8px)",
   },
-  "wrap-xs-nowrap": Object {
+  "wrap-nowrap": Object {
     "flexWrap": "nowrap",
   },
-  "wrap-xs-wrap-reverse": Object {
+  "wrap-reverse": Object {
     "flexWrap": "wrap-reverse",
   },
   "zeroMinWidth": Object {
@@ -755,32 +766,40 @@ Object {
       "maxWidth": "100%",
     },
   },
-  "align-content-xs-center": Object {
+  "align-content-center": Object {
     "alignContent": "center",
   },
-  "align-content-xs-flex-end": Object {
+  "align-content-flex-end": Object {
     "alignContent": "flex-end",
   },
-  "align-content-xs-flex-start": Object {
+  "align-content-flex-start": Object {
     "alignContent": "flex-start",
   },
-  "align-content-xs-space-around": Object {
+  "align-content-space-around": Object {
     "alignContent": "space-around",
   },
-  "align-content-xs-space-between": Object {
+  "align-content-space-between": Object {
     "alignContent": "space-between",
   },
-  "align-items-xs-baseline": Object {
+  "align-items-baseline": Object {
     "alignItems": "baseline",
   },
-  "align-items-xs-center": Object {
+  "align-items-center": Object {
     "alignItems": "center",
   },
-  "align-items-xs-flex-end": Object {
+  "align-items-flex-end": Object {
     "alignItems": "flex-end",
   },
-  "align-items-xs-flex-start": Object {
+  "align-items-flex-start": Object {
     "alignItems": "flex-start",
+  },
+  "align-self-center": Object {
+    "alignSelf": "center",
+  },
+  "box": Object {
+    "boxSizing": "border-box",
+    "margin": "0",
+    "padding": "0",
   },
   "container": Object {
     "boxSizing": "border-box",
@@ -788,14 +807,17 @@ Object {
     "flexWrap": "wrap",
     "width": "100%",
   },
-  "direction-xs-column": Object {
+  "direction-column": Object {
     "flexDirection": "column",
   },
-  "direction-xs-column-reverse": Object {
+  "direction-column-reverse": Object {
     "flexDirection": "column-reverse",
   },
-  "direction-xs-row-reverse": Object {
+  "direction-row-reverse": Object {
     "flexDirection": "row-reverse",
+  },
+  "flex": Object {
+    "display": "flex",
   },
   "grid-xs-1": Object {
     "flexBasis": "8.33333%",
@@ -918,10 +940,10 @@ Object {
     "margin": -4,
     "width": "calc(100% + 8px)",
   },
-  "wrap-xs-nowrap": Object {
+  "wrap-nowrap": Object {
     "flexWrap": "nowrap",
   },
-  "wrap-xs-wrap-reverse": Object {
+  "wrap-reverse": Object {
     "flexWrap": "wrap-reverse",
   },
   "zeroMinWidth": Object {

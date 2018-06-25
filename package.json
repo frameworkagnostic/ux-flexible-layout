@@ -7,7 +7,9 @@
     "prebuild": "babel ./src --out-dir ./lib --copy-files --source-maps --ignore spec.,mock.,.stories.jsx",
     "build": "node ./cicd-generate-styles",
     "pretest": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "npm run test && start-storybook -p 6006",
+    "build-storybook": "npm run test && build-storybook"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,11 @@
   },
   "homepage": "https://github.com/frameworkagnostic/ux-flexible-layout#readme",
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-links": "^3.4.8",
+    "@storybook/addons": "^3.4.8",
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3",
     "babel-jest": "^23.0.1",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
@@ -27,7 +34,18 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
     "jest": "^23.1.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "react": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "typography": "^0.16.17",
+    "typography-theme-wordpress-2016": "^0.15.10"
+  },
+  "dependencies": {
+    "react-dom": "^16.4.1"
   }
 }

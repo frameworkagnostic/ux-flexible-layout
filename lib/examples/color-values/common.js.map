@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/examples/color-values/common.js"],"names":["common","black","white"],"mappings":";;;;;AAEA,IAAMA,SAAS;AACbC,SAAO,MADM;AAEbC,SAAO;AAFM,CAAf;;kBAKeF,M","file":"common.js","sourcesContent":["// @flow\n\nconst common = {\n  black: '#000',\n  white: '#fff',\n};\n\nexport default common;\n"]}
