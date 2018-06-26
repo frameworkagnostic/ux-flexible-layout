@@ -46,11 +46,11 @@ const classNames = {
 
 };
 
-export const name = 'Blue/12 column grid';
+export const name = 'Blue/Products';
 
 
 export const examples = {
-  '1xs': () => (
+  '12 column grid Layout': () => (
     <div className={classNames.root}>
       <BlueNavigation />
       <div className={classNames.bannerCont}></div>

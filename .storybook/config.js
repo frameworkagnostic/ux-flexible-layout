@@ -50,22 +50,22 @@ const parseModule = (data) => {
 
 const loadStories = () => {
 
-  wordpress2016Theme.overrideThemeStyles = ({ rhythm }, options) => ({
-    'h1,h2': {
-      marginBottom: '25px',
-      marginTop: '5px',
-    },
-    'h3,h4,h5,h6': {
-      marginBottom: '15px',
-      marginTop: '5px',
-    },
-  });
+  // wordpress2016Theme.overrideThemeStyles = ({ rhythm }, options) => ({
+  //   'h1,h2': {
+  //     marginBottom: '25px',
+  //     marginTop: '5px',
+  //   },
+  //   'h3,h4,h5,h6': {
+  //     marginBottom: '15px',
+  //     marginTop: '5px',
+  //   },
+  // });
 
-  const typography = new Typography({
-    ...wordpress2016Theme
-  });
+  // const typography = new Typography({
+  //   ...wordpress2016Theme
+  // });
 
-  typography.injectStyles();
+  // typography.injectStyles();
 
 
   create({
